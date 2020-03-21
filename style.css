@@ -10,7 +10,7 @@
 :root {
     --bg-color: #031321;
     --primary-color: #2196f3;
-    --secondary-color:#255784;
+    --secondary-color: #255784;
 }
 
 body {
@@ -36,11 +36,11 @@ body {
 .btn:hover {
     color: var(--secondary-color);
     background: var(--primary-color);
-    box-shadow: 
-    0 0 20px var(--primary-color),
-    0 0 80px var(--primary-color),
-    0 0 160px var(--primary-color),
-    0 0 320px var(--primary-color);
+    box-shadow:
+        0 0 20px var(--primary-color),
+        0 0 80px var(--primary-color),
+        0 0 160px var(--primary-color),
+        0 0 320px var(--primary-color);
     transition-delay: 1s;
 }
 
